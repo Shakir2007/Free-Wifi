@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<body style="background-color: lightblue;">
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <!-- এই নিচের লাইনটি মোবাইল স্ক্রিনে লেখা মাঝখানে রাখার জন্য সবচেয়ে জরুরি -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Wifi</title>
-             <center>
-    <img src="1.jfif" width="1200" height="800">
-    <h1><p style="font-size: 80px;">Click করতে নিষেধ করছিলাম।🥱</p></h1>
-    <h1><p style="font-size: 80px;">১ বার Click করছেন। নিচের Link এ আর Click কইরেন না। Click করলে এর দায়ভার আমি নিব না।🙏</p></h1>
-    <p style="font-size: 80px;"><a href="3rd.html" target="Blank"><h1 style="font-size: 80px;">Wifi Password</h1></a></p>
-    </center>
+    <style>
+        body {
+            background-color: lightblue;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center; /* সব লেখা মাঝখানে নিয়ে আসবে */
+        }
+        img {
+            max-width: 100%; /* ছবি যেন মোবাইল স্ক্রিনের বাইরে চলে না যায় */
+            height: auto;
+            border-radius: 10px;
+        }
+        .large-text {
+            font-size: 7vw; /* মোবাইল স্ক্রিনের সাইজ অনুযায়ী লেখা নিজে থেকেই ছোট-বড় হবে */
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .link-text {
+            font-size: 8vw;
+            font-weight: bold;
+            display: block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
 
+    <!-- ছবি -->
+    <img src="1.jfif" alt="Monkey Image">
+
+    <!-- প্রথম প্যারাগ্রাফ -->
+    <p class="large-text">Click করতে নিষেধ করছিলাম।🥱</p>
+
+    <!-- দ্বিতীয় প্যারাগ্রাফ -->
+    <p class="large-text">১ বার Click করছেন। নিচের Link এ আর Click কইরেন না। Click করলে এর দায়ভার আমি নিব না।🙏</p>
+
+    <!-- লিংক -->
+    <a href="3rd.html" target="_blank" class="link-text">Wifi Password</a>
+
+</body>
 </html>
